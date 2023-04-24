@@ -15,5 +15,11 @@ class Taller extends CI_Controller {
 	{
 		$this->load->view('agregar_taller_view');
 	}
+	
+	public function taller2()
+	{
+		$this->load->view('taller2_view');
+	}
+
 
 }
